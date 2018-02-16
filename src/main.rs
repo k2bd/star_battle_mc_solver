@@ -78,6 +78,7 @@ fn main() {
 
         print_board(&star_board);
         println!("{}",score(&star_board,&regions,n_stars));
+        println!("{:?}",star_board[..][0]);
         i += 1;
     }
 
